@@ -1,21 +1,25 @@
 This contains script to do some shells basic operations
-1-listit shiw the content of the current dirctory
 
-2-bringmehome:- Takes you back to the HOME directoryfrom any directory you are
+0-current_working_directory This show the absolute path of the current directory ono is work on.
 
-3-listfiles :- Display current directory content in a long format
+1-listit show the content of the current dirctory.
 
-4-listmorefiles :- Display current directory content including hidden files (starting with .)
+2-bringmehome:- Takes you back to the HOME directoryfrom any directory you are.
 
-5-listfilesdigitonly :- Display the content of the  current directory with user and groupIDS in numerical value
+3-listfiles :- Display current directory content in a long format.
 
-6-firstdirectory :- this create a directory named my_first_directory in the /tmp/ directory
+4-listmorefiles :- Display current directory content including hidden files (starting with .).
 
-7-movethefile :- this move ths file name betty from /tmp/ to my_first_directory
+5-listfilesdigitonly :- Display the content of the  current directory with user and groupIDS in numerical value.
 
-8-firstdelete This will delete the file betty from the directory /tmp/my_first_directory/
+6-firstdirectory :- this create a directory named my_first_directory in the /tmp/ directory.
 
-9-firstdirdeletion This delete the directory that is on the /tmp/ directory
+7-movethefile :- this move ths file name betty from /tmp/ to my_first_directory.
+
+
+8-firstdelete This will delete the file betty from the directory /tmp/my_first_directory/ .
+
+9-firstdirdeletion This delete the directory that is on the /tmp/ directory.
 
 10-back this brings back the old pwd
 
