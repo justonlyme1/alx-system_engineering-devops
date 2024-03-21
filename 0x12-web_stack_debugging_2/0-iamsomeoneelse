@@ -1,3 +1,3 @@
-For this project, we expect you to look at this concept:
-
-Web stack debugging
+#!/usr/bin/env bash
+# Runs the whoami command under the user passed as argument.
+sudo -u "$1" whoami
