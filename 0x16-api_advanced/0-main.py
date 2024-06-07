@@ -9,8 +9,4 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Please pass an argument for the subreddit to search.")
     else:
-        subscribers = number_of_subscribers(sys.argv[1])
-        if subscribers:
-            print("OK")
-        else:
-            print("OK")
+        print("{:d}".format(number_of_subscribers(sys.argv[1])))
