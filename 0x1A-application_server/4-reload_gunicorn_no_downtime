@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-# Gracefully reloads Gunicorn.
+# Reload the gunicorn service without downtime
 
-ps aux | grep gunicorn | awk '{ print $2 }' | xargs kill -HUP
+SERVICE_FILE="/etc/systemd/system/gunicorn.service"
+
+sudo systemctl reload-or-restart $SERVICE_FILE
