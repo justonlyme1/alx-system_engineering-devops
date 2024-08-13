@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+"""Contain Recurse FUnction"""
 import requests
 
 def recurse(subreddit, hot_list=[], after="", count=0):
